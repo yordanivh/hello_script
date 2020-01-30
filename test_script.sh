@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-out = $(bash script.sh)
+out = $(bash -x script.sh)
 
-if [ "${out}" = "Hello world"]; then
+if [ "${out}" = "Hello world!"]; then
 	echo "Everything is OK"
 	exit 0
 else
