@@ -2,7 +2,7 @@
 
 out = $(bash script.sh)
 
-if [ "${out}" = "Hello world"]; then
+if [ `${out}` = "Hello world"]; then
 	echo "Everything is OK"
 	exit 0
 else
