@@ -1,4 +1,4 @@
-language: bash
+language: python
 script:
-        - bash test_script.sh
+- bash -x test_script.sh
 
