@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-out = $(./script.sh)
+out = $(bash script.sh)
 
 if [ "${out}" = "Hello world"]; then
 	echo "Everything is OK"
